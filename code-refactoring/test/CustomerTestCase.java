@@ -39,7 +39,7 @@ public class CustomerTestCase {
 	@Before
 	public void setUp() throws Exception {
 		movie1 = new Movie("mmmmmm", Movie.CHILDRENS);
-		movie1 = new Movie("kkkkkk", Movie.NEW_RELEASE);
+		movie2 = new Movie("kkkkkk", Movie.NEW_RELEASE);
 		
 		rental1 = new Rental(movie1, 2);
 		rental2 = new Rental(movie2, 3);
