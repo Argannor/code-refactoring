@@ -8,6 +8,16 @@ To understand this repository you have to look at the commits. The comments brie
 
 In the screenshot directory you can see screens of Sonar comparing metrics to the previous analysis (the first screenshot shows the initial state compared to the second analysis).
 
+##Three Bad Smells
+- realising different subtypes through conditional logic. Solution: Replace Type Code with State/Strategy [1]
+- complex methods (violating agains Single responsibility principle. Solution: Extract Method [2]
+- methods using data of a different class. Solution: Move Method [3]
+
+Please find the solutions in Mr. Fowlers catalog on http://refactoring.com/catalog/
+[1]: http://refactoring.com/catalog/replaceTypeCodeWithStateStrategy.html
+[2]: http://refactoring.com/catalog/extractMethod.html
+[3]: http://refactoring.com/catalog/moveMethod.html
+
 ##Conclusion:
 
 While the code is now much easier to understand, many metrics (like LoC, number of classes, etc.) grew over time. It doesn't have a negative impact on how I would grade the code's maintainability and readability.
