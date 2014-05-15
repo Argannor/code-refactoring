@@ -2,7 +2,7 @@
 
 Welcome to my small code refactoring example.
 
-###Featuring code and instructions from Martin Fowler - Refactoring: Improving the Design of Existing Code
+####Featuring code and instructions from Martin Fowler - Refactoring: Improving the Design of Existing Code
 
 To understand this repository you have to look at the commits. The comments briefly describe the changes made in order to improve the code quality.
 
