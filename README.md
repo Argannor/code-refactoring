@@ -6,17 +6,18 @@ Welcome to my small code refactoring example.
 
 To understand this repository you have to look at the commits. The comments briefly describe the changes made in order to improve the code quality.
 
-In the screenshot directory you can see screens of Sonar comparing metrics to the previous analysis (the first screenshot shows the initial state compared to the second analysis).
+In the [screenshot directory] you can see screens of Sonar comparing metrics to the previous analysis (the first screenshot shows the initial state compared to the second analysis).
+[screenshot directory]: https://github.com/Th3Tw0/code-refactoring/tree/master/code-refactoring/screenshots
 
 ##Three Bad Smells
-- realising different subtypes through conditional logic. Solution: Replace Type Code with State/Strategy [1]
-- complex methods (violating agains Single responsibility principle. Solution: Extract Method [2]
-- methods using data of a different class. Solution: Move Method [3]
+- realising different subtypes through conditional logic. Solution: [Replace Type Code with State/Strategy]
+- complex methods (violating agains Single responsibility principle. Solution: [Extract Method]
+- methods using data of a different class. Solution: [Move Method]
 
 Please find the solutions in Mr. Fowlers catalog on http://refactoring.com/catalog/
-[1]: http://refactoring.com/catalog/replaceTypeCodeWithStateStrategy.html
-[2]: http://refactoring.com/catalog/extractMethod.html
-[3]: http://refactoring.com/catalog/moveMethod.html
+[Replace Type Code with State/Strategy]: http://refactoring.com/catalog/replaceTypeCodeWithStateStrategy.html
+[Extract Method]: http://refactoring.com/catalog/extractMethod.html
+[Move Method]: http://refactoring.com/catalog/moveMethod.html
 
 ##Conclusion:
 
